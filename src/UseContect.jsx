@@ -12,7 +12,7 @@ function Fun() {
                 <ComponentB />
                 <button onClick={() => setData(data + 1)}>Increment</button>
                 <button onClick={() => setData(data - 1)}>Decrement</button>
-                <button onClick={() => setData(0)}>reset</button>
+                <button onDoubleClick={() => setData(0)}>reset</button>
 
             </Store.Provider>
         </>
