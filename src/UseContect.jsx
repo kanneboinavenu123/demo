@@ -12,7 +12,8 @@ function Fun() {
                 <ComponentB />
                 <button onClick={() => setData(data + 1)}>Increment</button>
                 <button onClick={() => setData(data - 1)}>Decrement</button>
-              
+                <button onClick={() => setData(0)}>reset</button>
+
             </Store.Provider>
         </>
     )
@@ -20,12 +21,12 @@ function Fun() {
 
 function ComponentA() {
     const [data, setData] = useContext(Store);
-  
+
     return (
         <>
             <h1>componentA</h1>
             <b>let see!{data}</b>
-        
+
 
         </>
     )
@@ -33,7 +34,7 @@ function ComponentA() {
 
 function ComponentB() {
     const [data, setData] = useContext(Store);
-    
+
     return (
         <>
             <h1>componentB</h1>
