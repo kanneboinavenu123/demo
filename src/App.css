@@ -1,0 +1,58 @@
+.main{
+  display: inline-flex;
+  width: fit-content;
+  cursor: pointer;
+}
+div{
+  display: inline;
+  position: relative;
+  text-align: center;
+}
+.one img{
+    color: #000000;
+    filter:opacity(30%);
+}
+.one:hover{
+  color: #ffffff;
+  background-color: #000000;
+    transition: all .3s ease 0s;
+}
+.two img{
+      color: #000000;
+    filter:opacity(30%);
+}
+.two:hover{
+    color: #ffffff;
+  background-color: #000000;
+    transition: all .3s ease 0s;
+}
+.three img{
+      color: #000000;
+    filter:opacity(30%);
+}
+.three:hover{
+    color: #ffffff;
+    background-color: #000000;
+    transition: all .3s ease 0s;
+}
+.four img{
+      color: #000000;
+    filter:opacity(30%);
+}
+.four:hover{
+    color: #ffffff;
+    background-color: #000000;
+    transition: all .3s ease 0s;
+}
+h3{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  font-size: 25px;
+}
+
+img{
+  height: 350px;
+  width: 100%;
+}

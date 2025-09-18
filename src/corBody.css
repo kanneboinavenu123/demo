@@ -1,0 +1,84 @@
+.Body{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 50px 25px;
+
+}
+.body_one{
+    height:500px;
+    width: 600px;
+}
+.body_two{
+    float: left;
+}
+.add{
+    border-radius: 20px;
+    height:500px;
+    width: 610px;
+}
+.body_one_sub{
+    margin: 2px 5px;
+    display: inline-block;
+}
+.body_one_sup{
+    height: 450px;
+    position: relative;
+    bottom: 80px;
+}
+.account{
+    color: rgb(120, 123, 125);
+}
+.number{
+    position: relative;
+    left:60px;
+    bottom: 38px;
+    color: rgb(120, 123, 125);
+}
+.btn_1{
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: green;
+    position: relative;
+    left: 450px;
+    bottom: 120px;
+}
+.container_one{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgb(79, 77, 77);
+    height: 150px;
+    width: 250px;
+    display: inline-flex;
+    margin: 20px;
+    margin-left: 20px;
+    justify-content:center;
+    border-radius: 10px;
+
+}
+.container_one button{
+    color: #ffff;
+    background-color: rgb(9, 172, 50);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+.container_one svg{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #cccaca;
+    border-radius: 30px;
+}
+.container_one p{
+    position: relative;
+    bottom: 15px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+span{
+    display: inline-flex;
+    gap: 3px;
+    text-align: center;
+}
